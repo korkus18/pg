@@ -1,6 +1,5 @@
 def main():
-    # Sem vlož svůj kód
-    print("Skript byl spuštěn jako hlavní program.")
+    print("hello word!")
 
 if __name__ == "__main__":
     main()
