@@ -32,7 +32,7 @@ V programu je funkce volána se dvěma testovacími hodnotami:
 
 3. Spusťte Python skript:
    ```bash
-   python3 test01.py
+   python3 first.py
    ```
 
 Program vypíše, zda jsou zadaná čísla sudá nebo lichá.
