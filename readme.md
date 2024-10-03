@@ -22,17 +22,17 @@ V programu je funkce volána se dvěma testovacími hodnotami:
 
 1. Naklonujte tento repozitář na svůj počítač:
    ```bash
-   git clone https://github.com/username/first-python-program.git
+   git clone https://github.com/korkus/pg.git
    ```
 
 2. Přejděte do složky projektu:
    ```bash
-   cd first-python-program
+   cd pg
    ```
 
 3. Spusťte Python skript:
    ```bash
-   python3 first.py
+   python3 test01.py
    ```
 
 Program vypíše, zda jsou zadaná čísla sudá nebo lichá.
