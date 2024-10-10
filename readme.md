@@ -15,9 +15,11 @@ Vytvořte program v jazyce Python, který bude obsahovat jednu funkci `sudy_nebo
 ## Úkol 2 
 
 Vytořit program second.py
-Upravte funkci cislo_text, která bude převádět číslo předané v parametru cislo na textovou reprezentaci daného čísla a tento text vrátí pomocí příkazu return. Příklad fungování funkce:
-"0" -> "nula"
-"1" -> "jedna"
-"15" -> "patnáct"
-"25" -> "dvacet pět"
-"100" -> "sto"
+- Upravte funkci cislo_text, která bude převádět číslo předané v parametru cislo na textovou reprezentaci daného čísla 
+- a tento text vrátí pomocí příkazu return. Příklad fungování funkce:
+  - "0" -> "nula"
+  - "1" -> "jedna"
+  - "15" -> "patnáct"
+  - "25" -> "dvacet pět"
+  - "100" -> "sto"
+     
