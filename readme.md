@@ -1,9 +1,9 @@
 
-# First Python Program - JČU Cvičení 1
+# JČU úkoly 
 
-Tento repozitář obsahuje první úkol z předmětu programování na Jihočeské univerzitě (JCU) pro cvičení č. 1. Cílem bylo vytvořit jednoduchý Python program, který kontroluje, zda je zadané číslo sudé nebo liché, a výsledek vypíše do konzole.
+Tento repozitář obsahuje úkoly z předmětu programování na Jihočeské univerzitě (JCU).
 
-## Úkol
+## Úkol 1
 
 Vytvořte program v jazyce Python, který bude obsahovat jednu funkci `sudy_nebo_lichy(cislo)`. Tato funkce:
 - Přijme jeden parametr `cislo`.
@@ -12,32 +12,12 @@ Vytvořte program v jazyce Python, který bude obsahovat jednu funkci `sudy_nebo
   - Pokud je číslo sudé: "Číslo X je sudé."
   - Pokud je číslo liché: "Číslo X je liché."
 
-### Volání funkce
+## Úkol 2 
 
-V programu je funkce volána se dvěma testovacími hodnotami:
-- `sudy_nebo_lichy(5)` (výsledek: "Číslo 5 je liché.")
-- `sudy_nebo_lichy(1000000)` (výsledek: "Číslo 1000000 je sudé.")
-
-## Použití
-
-1. Naklonujte tento repozitář na svůj počítač:
-   ```bash
-   git clone https://github.com/korkus/pg.git
-   ```
-
-2. Přejděte do složky projektu:
-   ```bash
-   cd pg
-   ```
-
-3. Spusťte Python skript:
-   ```bash
-   python3 first.py
-   ```
-
-Program vypíše, zda jsou zadaná čísla sudá nebo lichá.
-
-## Předpoklady
-
-- Python 3.x nainstalovaný na vašem počítači.
-
+Vytořit program second.py
+Upravte funkci cislo_text, která bude převádět číslo předané v parametru cislo na textovou reprezentaci daného čísla a tento text vrátí pomocí příkazu return. Příklad fungování funkce:
+"0" -> "nula"
+"1" -> "jedna"
+"15" -> "patnáct"
+"25" -> "dvacet pět"
+"100" -> "sto"
