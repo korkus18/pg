@@ -1,8 +1,9 @@
 def bin_to_dec(binarni_cislo):
-    # funkce spocita hodnotu predavaneho binarniho cisla (binarni_cislo muze byt str i int!!!)
-    # 111 -> 7
-    # "101" -> 5
-    return 0
+    # Pokud je vstup int, převede ho na řetězec
+    if isinstance(binarni_cislo, int):
+        binarni_cislo = str(binarni_cislo)
+    # Konverze binárního čísla na decimální pomocí int() s base 2
+    return int(binarni_cislo, 2)
 
 
 def test_bin_to_dec():
