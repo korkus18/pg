@@ -8,9 +8,9 @@
 from abc import ABC, abstractmethod
 import math #Importoval jsem knihovnu math
 
-class Shape(ABC):
-    @abstractmethod
-    def area(self):
+class Shape(ABC): #Abstract Base Class
+    @abstractmethod #dekoder ktery znaci ze to bude abstraktni metorou
+    def area(self): #jen implementuje funkci
         pass
 # ZDE DOPLŇTE VLASTNÍ KÓD
 
@@ -21,7 +21,7 @@ class Shape(ABC):
 
 
 class Rectangle(Shape):
-    def __init__(self, sirka, vyska):
+    def __init__(self, sirka, vyska): #konstruktor odkazujici na aktualni instanci a definuji mu rozmery
         """
         Inicializuje šířku a výšku obdélníku.
         """
@@ -43,9 +43,9 @@ class Circle(Shape):
 
     def area(self):
         """
-        Vypočítá plochu kruhu (π * r^2).
+        Vypočítá plochu kruhu (pi * r^2).
         """
-        return math.pi * (self.polomer ** 2) #pouziju implementovanou knihovnu math
+        return math.pi * (self.polomer ** 2) #pouziju implementovanou knihovnu math a z ni pi
 
 
 
