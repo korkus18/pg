@@ -4,11 +4,11 @@
 
 ### Environment: Staging
 
-### Date: 2025-01-30 13:34
+### Date: 2025-01-30 13:52
 
-### WordPress Core, Version 6.7.1
+### Wordpress Core, Version 6.7.1
 
-### Theme (Child: Attorna Child), Version: 6.1.9
+### Theme (Child): Attorna Child, Version: 6.1.9
 
 ### Plugins:
 
