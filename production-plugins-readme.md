@@ -4,11 +4,11 @@
 
 ### Environment: Production
 
-### Date: 2025-01-30 15:38
+### Date: 2025-01-30 15:39
 
-### WordPress Core, Version 6.7.1
+### Wordpress Core, Version 6.7.1
 
-### Theme (Child: Attorna Child), Version: 6.1.9
+### Theme (Child): Attorna Child, Version: 6.1.9
 
 ### Plugins:
 
